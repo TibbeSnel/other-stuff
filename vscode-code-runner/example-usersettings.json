@@ -1,0 +1,14 @@
+{
+    "//": "Append the following to your existing VSCode settings (do not replace everything):",
+    
+    "code-runner.executorMap": {
+        "c": "~/run.sh",
+        "cpp": "~/run.sh",
+        "verilog": "~/run.sh",
+        "systemverilog": "~/run.sh"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    "git.enableSmartCommit": true
+}
